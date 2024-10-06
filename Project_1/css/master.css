@@ -1,0 +1,90 @@
+/* styles.css */
+
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+/* General body styling */
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #eaf2f8;
+    color: #333;
+}
+
+/* Main title styling */
+.main-title {
+    text-align: center;
+    color: rgb(205, 75, 23);
+    margin-bottom: 20px;
+}
+
+/* Section title styling */
+.section-title {
+    margin-top: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* Task title styling */
+.task-title {
+    margin-top: 15px;
+    color: #555;
+}
+
+/* Feature list styling */
+.feature-list {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Feature item styling */
+.feature-item {
+    margin: 5px 0;
+}
+
+/* Task list styling */
+.task-list {
+    margin: 10px 0;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+/* Paragraph description styling */
+.description {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+/* Table styling */
+.progress-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.progress-table th, .progress-table td {
+    border: 1px solid #3498db;
+    padding: 8px;
+    text-align: left;
+}
+
+.progress-table th {
+    background-color: #f0f8ff;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+    .main-title {
+        font-size: 1.5em;
+    }
+    .section-title, .task-title {
+        font-size: 1.2em;
+    }
+}
